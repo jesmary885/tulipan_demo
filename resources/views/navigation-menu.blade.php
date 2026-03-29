@@ -379,10 +379,12 @@
                             Mi Perfil
                         </a>
 
-                        <a href="{{ route('logout') }}"
-                           class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">
-                            Cerrar sesión
-                        </a>
+                        <form class="block px-4 py-2 hover:bg-red-50 hover:text-red-600" method="POST" action="{{ route('logout') }}">
+                            @csrf
+                            <button type="submit">Cerrar sesión</button>
+                        </form>
+
+                   
                     </div>
                 </div>
             </div>
