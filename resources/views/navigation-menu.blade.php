@@ -323,7 +323,7 @@
 
                         <a href="{{ route('reportes.drivers') }}"
                            class="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">
-                             Drivers 
+                             Driver
                         </a>
                         
                         <a href="#"
